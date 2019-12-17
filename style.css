@@ -9,7 +9,9 @@ body {
     align-items: center;
     justify-content: center;
     overflow-y: hidden;
+    position: fixed;
 }
 canvas {
     border: 1px solid white;
+    position: fixed;
 }
