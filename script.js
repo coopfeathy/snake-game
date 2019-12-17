@@ -59,11 +59,11 @@ function loop() {
   }
 
   // draw apple
-  context.fillStyle = 'red';
+  context.fillStyle = 'yellow';
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
 
   // draw snake
-  context.fillStyle = 'green';
+  context.fillStyle = 'yellow';
   snake.cells.forEach(function(cell, index) {
     context.fillRect(cell.x, cell.y, grid-1, grid-1);
 
